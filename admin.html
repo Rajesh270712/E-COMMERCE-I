@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECommerce Admin Panel</title>
+    <link rel="stylesheet" href="./admin.css">
+</head>
+<body>
+    <h1>ECommerce Admin Panel</h1>
+
+  <div id="container">
+    <form id="sellerform" action="">
+        <input id="name" type="text" placeholder="Product name">
+        <br>
+        <input id="category" type="text" placeholder="Category">
+        <br>
+        <input id="image" type="text" placeholder="Image url">
+        <br>
+        <input id="price" type="number" placeholder="Price">
+        <br>
+        
+        <select name="Gender" id="gender">
+            <option value="">select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <br>
+        <select name="Sold" id="sold">
+            
+            <option value="false">No</option>
+            <option value="true">Yes</option>
+        </select>
+        <br>
+        <input style="display: block;;width: 50%;margin: auto;" id="add" type="submit">
+    </form>
+    
+  </div>
+</body>
+<script src="./admin.js"></script>
+</html>

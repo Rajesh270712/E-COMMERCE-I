@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+
+#list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2vh;
+    width: 90%;
+    margin: auto;
+}
+
+#list>div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 1vh;
+}
+#list>div>img{
+    width: 100%;
+}
+#list>div>button{
+    width: 60%;
+    margin: 1vh auto;
+}
+#counter{
+    margin-left: 5%;
+}
